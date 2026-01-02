@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background: #fffaf6;
+  color: #333;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+.logo {
+  font-weight: 700;
+  color: #2f2a28;
+  letter-spacing: 1px;
+}
+.nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #6b5b52;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 420px;
+  background: linear-gradient(135deg, rgba(255,127,80,0.08), rgba(199,21,133,0.06)), url('https://via.placeholder.com/1600x420?text=KnottyBlooms+Hero') center/cover no-repeat;
+  color: #2f2a28;
+  text-align: center;
+}
+.hero-inner { background: rgba(255,255,255,0.7); padding: 24px; border-radius: 8px; }
+.hero button {
+  margin-top: 12px;
+  padding: 10px 18px;
+  background: #c71585;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.products, .about, .contact { padding: 40px 20px; text-align: center; }
+.product-grid { display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; }
+.product-card { background: #fff; padding: 12px; width: 260px; border: 1px solid #eee; border-radius: 6px; }
+.product-card img { width: 100%; height: auto; border-radius: 4px; }
+.footer { padding: 20px; background: #2f2a28; color: #fff; text-align: center; }
